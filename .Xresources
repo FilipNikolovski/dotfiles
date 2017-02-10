@@ -1,4 +1,4 @@
-URxvt.font: xft:DejaVu Sans Mono:size=16
+URxvt.font: xft:DejaVu Sans Mono:size=11
 ! URXVT ENABLE LINK SUPPORT
 ! !------------------------------------------------
  URxvt.perl-lib: /usr/bin/perl
@@ -43,37 +43,22 @@ URxvt.font: xft:DejaVu Sans Mono:size=16
 ! vim: set filetype=xdefaults :
 !
 ! special
- *.foreground: #93a1a1
- *.background: #3c3b37
- *.cursorColor: #93a1a1
-! ! black
- *.color0: #5f5f5f
- *.color8: #828282
-!
-! ! red
- *.color1: #d96468
- *.color9: #d98f93
-!
-! ! green
- *.color2: #a2d964
- *.colior10: #b8d98f
-!
-! ! yellow
- *.color3: #d9c964
- *.color11: #d9cf8f
-!
-! ! blue
- *.color4: #64a2d9
- *.color12: #8f99d9
-!
-! ! magenta
- *.color5: #9a64d9
- *.color13: #b08fd9
-!
-! ! cyan
- *.color6: #64d9d5
- *.color14: #8fd9d5
-!
-! ! white
- *.color7: #989898
- *.color15: #c5c5c5
+*foreground: #E3DE93
+*background: #01182C
+*cursor: #E3DE93
+*color0: #01182C
+*color1: #609E66
+*color2: #52C56D
+*color3: #B8B06F
+*color4: #6F7584
+*color5: #4FBE87
+*color6: #B2BA8D
+*color7: #E3DE93
+*color9: #609E66
+*color10: #52C56D
+*color11: #B8B06F
+*color12: #6F7584
+*color13: #4FBE87
+*color14: #B2BA8D
+*color15: #E3DE93
+*color8: #666666
