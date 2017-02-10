@@ -32,18 +32,18 @@ set $left j
 set $right semicolon
 
 ### THEME ###
-set $FOCUS #989898
-set $UNFOCUS #3c3b37
+set $FOCUS #52C56D 
+set $UNFOCUS #37474F
 
-## Layout colors        bord    bg      text    indicator (split)
-client.focused             $FOCUS $FOCUS $FOCUS $FOCUS
+## Layout colors        bord     bg       text     indicator (split)
+client.focused          $FOCUS   $FOCUS   $FOCUS   $FOCUS
 client.focused_inactive $UNFOCUS $UNFOCUS $UNFOCUS $UNFOCUS
-client.unfocused       $UNFOCUS $UNFOCUS $UNFOCUS $UNFOCUS
-client.urgent          $FOCUS $FOCUS $FOCUS $FOCUS
-client.background      $UNFOCUS
+client.unfocused        $UNFOCUS $UNFOCUS $UNFOCUS $UNFOCUS
+client.urgent           $FOCUS   $FOCUS   $FOCUS   $FOCUS
+client.background       $UNFOCUS
 
 #### Borders ###
-new_window pixel 4
+new_window pixel 5
 new_float pixel 4
 
 ### Gaps 
@@ -221,6 +221,8 @@ bar {
         position top
         tray_padding 3
 }
+
+exec --no-startup-id "setxkbmap -model pc105 -layout us,mk -option grp:alt_shift_toggle"
 
 exec --no-startup-id /home/fic/.i3/i3_provision.sh
 
