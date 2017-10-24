@@ -222,7 +222,7 @@ bar {
         tray_padding 3
 }
 
-exec --no-startup-id "setxkbmap -model pc105 -layout us,mk -option grp:alt_shift_toggle"
+exec --no-startup-id "setxkbmap -model pc105 -layout us,mk -option grp:mod4_space_toggle"
 
 exec --no-startup-id /home/fic/.i3/i3_provision.sh
 
