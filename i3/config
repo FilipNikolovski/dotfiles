@@ -32,7 +32,7 @@ set $left j
 set $right semicolon
 
 ### THEME ###
-set $FOCUS #52C56D 
+set $FOCUS #F06292 
 set $UNFOCUS #37474F
 
 ## Layout colors        bord     bg       text     indicator (split)
@@ -222,7 +222,7 @@ bar {
         tray_padding 3
 }
 
-exec --no-startup-id "setxkbmap -model pc105 -layout us,mk -option grp:mod4_space_toggle"
+exec --no-startup-id "setxkbmap -model pc105 -layout us,mk -option grp:alt_caps_toggle"
 
 exec --no-startup-id /home/fic/.i3/i3_provision.sh
 
