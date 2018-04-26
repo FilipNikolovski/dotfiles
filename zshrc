@@ -3,6 +3,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/Documents/go/bin:/usr/bin/core_
 
 export GOPATH=$HOME/Documents/go
 
+export BAZEL_PYTHON=/usr/bin/python2
+
+
 # Path to your oh-my-zsh installation.
 export ZSH=/home/fic/.oh-my-zsh
 
