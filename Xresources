@@ -1,0 +1,64 @@
+URxvt.font: xft:DejaVu Sans Mono:size=11
+! URXVT ENABLE LINK SUPPORT
+! !------------------------------------------------
+ URxvt.perl-lib: /usr/bin/perl
+ URxvt.perl-ext-common: default,matcher,clipboard
+ !tabbed
+ URxvt.matcher.button: 1
+ URxvt.perl-ext: default
+ URxvt.keysym.M-u: perl:url-select:select_next
+ URxvt.url-select.launcher: /usr/bin/chromium
+ URxvt.url-select.underline: true
+!disable the fucking bell
+ URxvt.insecure: false
+! ! URXVT COPY PASTE SHORTCUTS
+! !------------------------------------------------
+ URxvt.iso14755: False
+ URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+ URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+ URxvt.keysym.M-c: perl:clipboard:copy
+ URxvt.keysym.M-v: perl:clipboard:paste
+! ! URXVT SCROLLBAR AND CURSOR STYLE
+! !------------------------------------------------
+ URxvt*saveLines: 300000
+ URxvt.scrollBar: false
+ !URxvt*scrollstyle: plain
+ URxvt*cursorBlink: true
+ URxvt*cursorUnderline: true
+!
+! ! URXVT TABS
+! !------------------------------------------------
+ URxvt.tabbedex.autohide: yes
+ URxvt.tabbedex.tabbar-fg: 2
+ URxvt.tabbedex.tabbar-bg: 0
+ URxvt.tabbedex.tab-fg: 10
+ URxvt.tabbedex.tab-bg: 0
+ URxvt.tabbedex.title: yes
+ URxvt.tabbedex.new-button: no
+! ! URXVT FULLSCREEN TOGGLE
+! !------------------------------------------------
+! URxvt.keysym.F11: perl:fullscreen:switch
+! ! URXVT COLORS
+! !------------------------------------------------
+! vim: set filetype=xdefaults :
+!
+! special
+*foreground: #E3DE93
+*background: #01182C
+*cursor: #E3DE93
+*color0: #01182C
+*color1: #609E66
+*color2: #52C56D
+*color3: #B8B06F
+*color4: #6F7584
+*color5: #4FBE87
+*color6: #B2BA8D
+*color7: #E3DE93
+*color9: #609E66
+*color10: #52C56D
+*color11: #B8B06F
+*color12: #6F7584
+*color13: #4FBE87
+*color14: #B2BA8D
+*color15: #E3DE93
+*color8: #666666
