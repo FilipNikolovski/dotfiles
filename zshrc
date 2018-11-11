@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/Documents/go/bin:/usr/bin/core_perl:$HOME/.config/composer/vendor/bin:$HOME/Documents/go/src/k8s.io/kubernetes/third_party/etcd
+export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH:$HOME/Documents/go/bin:/usr/bin/core_perl:$HOME/.config/composer/vendor/bin:$HOME/Documents/go/src/k8s.io/kubernetes/third_party/etcd
 
 export GOPATH=$HOME/Documents/go
 
